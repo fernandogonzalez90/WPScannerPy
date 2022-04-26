@@ -7,7 +7,7 @@ if path.exists('wp_plugins.txt'):
     archivo = open('wp_plugins.txt', 'r')
     archivo = archivo.read().split('\n')
     lista = []
-    url = 'https://gonzalezelectricista.com.ar'
+    url = 'https://tusitiowp.com.ar'
     bar = Bar('Espere...', max=len(archivo))
 
     for plugin in archivo:
