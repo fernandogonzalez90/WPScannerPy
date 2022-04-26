@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://gonzalezelectricista.com.ar'
+url = 'https://tusitiowp.com.ar'
 headers = {'User-Agent':'Firefox'}
 peticion = requests.get(url=url, headers=headers)
 soup = BeautifulSoup(peticion.text, 'html5lib')
